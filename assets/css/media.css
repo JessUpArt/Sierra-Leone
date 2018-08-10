@@ -1,0 +1,35 @@
+@media (max-width: 1199px) {
+  html{
+    font-size: 8px;
+  }
+}
+@media (max-width: 991px) {
+  html{
+    font-size: 1px;
+  }
+  .tags{
+    flex-direction: column;
+    align-items: center;
+  }
+  .tag{
+    width: 70%;
+  }
+  .history{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .government{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .mess{
+    font-size: 9pt;
+  }
+  .crcl{
+    height: 10%;
+    margin-top: -50px;
+  }
+  .culture{
+    padding-top: 190px;
+  }
+}
