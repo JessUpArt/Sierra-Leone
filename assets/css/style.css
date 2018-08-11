@@ -51,7 +51,60 @@ src: url('../fonts/Uni Sans Heavy.otf');
   text-decoration: none;
   font-family: CircleRounded;
   font-size: 15pt;
+
+  transition: 0.4s;
 }
+
+.mobile{
+  display: flex;
+
+  width: 100%;
+  padding: 70px 50px;
+  background-color: RGBA(104,49,84,0.7);
+  height: 100%;
+  display: none;
+}
+
+
+.mobile ul{
+  width: 65%;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+
+}
+
+
+.mobile ul li{
+margin: 5px;
+
+}
+
+.nav-link::before{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #683154;
+  transform: translateY(30px) scale(0);
+  transition: 0.5s;
+}
+
+.nav-link:hover::before{
+  transform: translateY(30px) scale(1);
+  transition: 0.5s;
+}
+
+.bar{
+  font-size: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px 40px;
+  color: #fff;
+  display: none;
+}
+
 .head-text{
   color: #fff;
   display: flex;

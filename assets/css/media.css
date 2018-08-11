@@ -3,6 +3,10 @@
     font-size: 8px;
   }
 }
+
+
+
+
 @media (max-width: 991px) {
   html{
     font-size: 1px;
@@ -31,5 +35,28 @@
   }
   .culture{
     padding-top: 190px;
+  }
+  .menu{
+    display: none;
+  }
+  .nav-link{
+    font-size: 55px;
+  }
+  .nav-link:hover::before{
+    transform: translateY(30px) scale(0);
+    transition: 0.5s;
+  }
+  .mobile{
+  /* display: flex; */
+  }
+  .head{
+    justify-content: center;
+  }
+  .head h1{
+    font-size: 210pt;
+    margin-top: -360px;
+  }
+  .bar{
+    display: block;
   }
 }
